@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <h1>Realtime Chat App</h1>
+      <h1>Pisscord</h1>
       <div className="chat-window">
         <ul>
           {messages.map((message, index) => (
