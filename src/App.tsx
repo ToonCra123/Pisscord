@@ -1,6 +1,11 @@
 import React, { useState, /*useEffect, useRef*/ } from 'react';
 import './App.css';
 
+type MessageData = {
+  author: string,
+  message: string
+};
+
 function App() {
   const [messages, setMessages] = useState<string[]>([]);
   const [newMessage, setNewMessage] = useState('');
